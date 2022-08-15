@@ -7,3 +7,15 @@ for i in range(len(nums)):
         print(True)
     lookup[i] = nums[i]
 
+
+# def containsDuplicate(nums):
+#     lookup = set()
+
+#     for num in nums:
+#         if nums[num] in lookup:
+#             return True
+#         lookup[num] = nums[num]
+#     return False
+
+# print(containsDuplicate(nums))
+
